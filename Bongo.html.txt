@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waigizaji wa Bongo - Wasifu na Tabia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+            color: #1a202c;
+        }
+        .actor-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .actor-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-indigo-600 text-white shadow-lg p-6 rounded-b-lg">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">Wasifu wa Waigizaji wa Bongo</h1>
+            <p class="mt-2 text-lg sm:text-xl font-light">Gundua waigizaji maarufu wa Tanzania na sifa zao.</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Waigizaji Maarufu</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Actor 1: Wema Sepetu -->
+                <div class="actor-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border-2 border-indigo-200">
+                    <img src="https://placehold.co/400x400/D1C4E9/512DA8?text=Wema+Sepetu" alt="Picha ya Wema Sepetu" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Wema Sepetu</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Anajulikana kwa uigizaji wake wa hisia, uzuri wake, na tabia za kifahari katika filamu zake. Ana uwezo wa kipekee wa kuleta uhai kwa wahusika wake, jambo ambalo limemfanya kuwa kipenzi cha mashabiki wengi.
+                    </p>
+                </div>
+
+                <!-- Actor 2: Mzee Majuto -->
+                <div class="actor-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border-2 border-green-200">
+                    <img src="https://placehold.co/400x400/C8E6C9/2E7D32?text=Mzee+Majuto" alt="Picha ya Mzee Majuto" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Mzee Majuto</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Mwigizaji nguli na mchekeshaji ambaye mara nyingi huigiza kama mzee mwenye busara, mwenye hekima, na ambaye hutumia ucheshi kutatua matatizo. Alikuwa nembo ya burudani Tanzania.
+                    </p>
+                </div>
+
+                <!-- Actor 3: Irene Uwoya -->
+                <div class="actor-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border-2 border-red-200">
+                    <img src="https://placehold.co/400x400/FFCDD2/C62828?text=Irene+Uwoya" alt="Picha ya Irene Uwoya" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Irene Uwoya</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Ana uwezo wa kuigiza majukumu mbalimbali, kutoka kwa mwanamke wa nyumbani hadi mhalifu sugu, akionyesha utofauti wake mkubwa katika tasnia ya filamu. Ni mmoja wa waigizaji wenye majina makubwa.
+                    </p>
+                </div>
+
+                <!-- Actor 4: Steven Kanumba -->
+                <div class="actor-card bg-white rounded-xl shadow-lg overflow-hidden p-6 border-2 border-blue-200">
+                    <img src="https://placehold.co/400x400/BBDEFB/1565C0?text=Steven+Kanumba" alt="Picha ya Steven Kanumba" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Steven Kanumba</h3>
+                    <p class="text-gray-700 leading-relaxed text-sm">
+                        Anakumbukwa kwa majukumu yake mazito, ujuzi wake wa uandishi wa skrini na jinsi alivyoleta uhai kwenye tasnia ya filamu ya Tanzania. Alikuwa mmoja wa waanzilishi wa filamu bora za Bongo.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        
+        <section class="mt-12">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Picha Zako Ulizopakia</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- User's Uploaded Image 1 -->
+                <div class="bg-gray-200 rounded-xl shadow-lg overflow-hidden p-4">
+                    <img src="IMG_4139.jpg" alt="Picha kutoka kwa mtumiaji" class="w-full h-64 object-cover rounded-md mb-4">
+                    <p class="text-gray-800 font-semibold text-center">IMG_4139.jpg</p>
+                </div>
+
+                <!-- User's Uploaded Image 2 -->
+                <div class="bg-gray-200 rounded-xl shadow-lg overflow-hidden p-4">
+                    <img src="WhatsApp Image 2025-08-31 at 06.25.24.jpeg" alt="Picha kutoka kwa mtumiaji" class="w-full h-64 object-cover rounded-md mb-4">
+                    <p class="text-gray-800 font-semibold text-center">WhatsApp Image 2025-08-31 at 06.25.24.jpeg</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-6 mt-12 rounded-t-lg">
+        <p class="text-sm font-light">&copy; 2024 Wasifu wa Waigizaji wa Bongo. Haki zote zimehifadhiwa.</p>
+    </footer>
+
+</body>
+</html>
